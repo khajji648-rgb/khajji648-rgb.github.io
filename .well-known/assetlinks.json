@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+            window.location = "https://docs.pwabuilder.com/#/builder/android?id=publish";
+        </script>
+    </body>
+</html>
+
+Keep this file and signing.keystore in a safe place. You'll need these files if you want to upload future versions of your PWA to the Google Play Store.
+
+Key store file: signing.keystore
+Key store password: BJdvAn_lVjva
+Key alias: my-key-alias
+Key password: BJdvAn_lVjva
+Signer's full name: Khalid Admin
+Signer's organization: Khalid's Language
+Signer's organizational unit: Engineering
+Signer's country code: US
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.khajji648_rgb.twa",
+        "sha256_cert_fingerprints": ["1E:70:DC:03:EF:48:02:E6:26:A0:FE:FE:EF:5C:31:C0:4E:FF:69:8D:28:D1:A8:AE:56:2B:F8:A9:A2:48:7D:1F"]
+      }
+    }]
